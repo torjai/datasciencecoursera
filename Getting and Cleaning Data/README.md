@@ -1,7 +1,11 @@
-### Course Project - Getting and Cleaning Data  
+## Course Project - Getting and Cleaning Data  
 
-The run_analysis.R script executes the following steps:  
-see the numbering of block of codes in run_analysis.R
+### Project Description
+The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. 
+The goal is to prepare tidy data that can be used for later analysis. 
+
+The 'run_analysis.R' script executes steps listed below. 
+Please, see the numbering of block of codes in run_analysis.R.
 
 Once the script is executed final tidy data can be read by  
 import_data<-read.table("./data/new_summary_table.txt", header=T)  
