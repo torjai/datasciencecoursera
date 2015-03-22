@@ -3,7 +3,6 @@ The purpose of this project is to demonstrate the ability to collect, work with,
 The goal is to prepare tidy data that can be used for later analysis. 
 
 ###The dataset includes the following raw data:
-=========================================
 source: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 * 'features.txt': List of all features.
@@ -45,6 +44,6 @@ Once the script is executed final tidy data can be read by
 import_data<-read.table("./data/new_summary_table.txt", header=T)  
 View(import_data)
 
-for further info, please, use
-* str(import_data)
-* dim(import_data)
+for further info, please, use  
+str(import_data)  
+dim(import_data)
