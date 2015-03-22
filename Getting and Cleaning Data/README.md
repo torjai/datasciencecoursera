@@ -1,9 +1,11 @@
-## Course Project - Getting and Cleaning Data 
-The run_analysis.R script executes the following steps: 
+## Course Project - Getting and Cleaning Data  
+The run_analysis.R script executes the following steps:  
+
 (see the numbering of block of codes in run_analysis.R)
 
-* once the script is executed final tidy data can be read by 
+* once the script is executed final tidy data can be read by  
 import_data<-read.table("./data/new_summary_table.txt", header=T) 
+
 View(import_data)
 
 ## 0.1 load necessary libraries
