@@ -1,4 +1,6 @@
 ## Course Project - Getting and Cleaning Data
+
+# 0.1 load necessary libraries
 library(plyr)
 library(dplyr)
 library(reshape2)
