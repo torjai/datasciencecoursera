@@ -1,11 +1,11 @@
 ## Course Project - Getting and Cleaning Data
 
 The run_analysis.R script executes the following steps:
-(see the numbering of block of codes in run_analysis.R)
+ (see the numbering of block of codes in run_analysis.R)
 
 * once the script is executed final tidy data can be read by
-import_data<-read.table("./data/new_summary_table.txt", header=T)
-View(import_data)
+ import_data<-read.table("./data/new_summary_table.txt", header=T)
+ View(import_data)
 
 ## 0.1 load necessary libraries
 
@@ -19,22 +19,22 @@ View(import_data)
 
 ## 1.3 read test data
 * X_test (measures) source: UCI HAR Dataset/test/X_test.txt
-** name X_test columns using features
-** select coulms with "-mean()" and "-std()"
+  * name X_test columns using features
+  * select coulms with "-mean()" and "-std()"
 * y_test (activity list) source: UCI HAR Dataset/test/y_test.txt
-** name y_test column "activity"
+  * name y_test column "activity"
 * subject_test (subject list) source: UCI HAR Dataset/test/subject_test.txt
-** name subject test column "subject" 
+  * name subject test column "subject" 
 * merge test data sets
 
 ## 1.4 read train data
 * X_train (measures) source: UCI HAR Dataset/train/X_train.txt
-** name X_train columns using features
-** select coulms with "-mean()" and "-std()"
+  * name X_train columns using features
+  * select coulms with "-mean()" and "-std()"
 * y_train (activity list) source: UCI HAR Dataset/train/y_train.txt
-** name y_train column "activity"
+  * name y_train column "activity"
 * subject_train (subject list) source: UCI HAR Dataset/train/subject_train.txt
-** name subject train column "subject" 
+  * name subject train column "subject" 
 * merge train data sets
 
 ## 1.5 merge test and train data sets
