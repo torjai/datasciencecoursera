@@ -34,11 +34,11 @@ for detailed description see 'README.txt'
 
 ###Description of the variables in the new_summary_table.txt file
 1. varibles 1: feature
-  * values: features indicating the mean and standard deviation for each measurements
+ * values: features indicating the mean and standard deviation for each measurements
 2. variables 2-7: activity names
-  * values: average of the observations for each activity 
-2. variables 8-37: subject labels
-  * values: average of the observations for each subject 
+ * values: average of the observations for each activity
+3. variables 8-37: subject labels
+ * values: average of the observations for each subject 
 
 * once the script is executed final tidy data can be read by  
 import_data<-read.table("./data/new_summary_table.txt", header=T)  
