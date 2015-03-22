@@ -1,5 +1,5 @@
 ## Course Project - Getting and Cleaning Data
-test
+test2
 The run_analysis.R script executes the following steps:
  (see the numbering of block of codes in run_analysis.R)
 
